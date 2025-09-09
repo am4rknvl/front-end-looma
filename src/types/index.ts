@@ -4,6 +4,9 @@ export interface User {
   displayName: string;
   avatar: string;
   bio?: string;
+  location?: string;
+  website?: string;
+  email?: string;
   followerCount: number;
   followingCount: number;
   isLive: boolean;

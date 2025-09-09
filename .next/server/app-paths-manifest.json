@@ -1,0 +1,14 @@
+{
+  "/_not-found": "app/_not-found.js",
+  "/auth/forgot-password/page": "app/auth/forgot-password/page.js",
+  "/browse/page": "app/browse/page.js",
+  "/auth/signup/page": "app/auth/signup/page.js",
+  "/admin/page": "app/admin/page.js",
+  "/auth/login/page": "app/auth/login/page.js",
+  "/profile/[username]/page": "app/profile/[username]/page.js",
+  "/following/page": "app/following/page.js",
+  "/home/page": "app/home/page.js",
+  "/watch/[id]/page": "app/watch/[id]/page.js",
+  "/page": "app/page.js",
+  "/dashboard/page": "app/dashboard/page.js"
+}

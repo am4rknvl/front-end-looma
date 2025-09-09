@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { Filter, Grid, List } from 'lucide-react';
 import { useStreamStore } from '@/store/streamStore';
 import { mockAPI } from '@/lib/api';
+import { Category } from '@/types';
 import Navbar from '@/components/layout/Navbar';
 import { StreamGrid } from '@/components/stream/StreamGrid';
 import Button from '@/components/ui/Button';
@@ -96,7 +97,7 @@ const Browse: React.FC = () => {
             >
               All Categories
             </button>
-            {categories.map((category) => (
+            {categories.map((category: Category) => (
               <button
                 key={category.id}
                 onClick={() => setSelectedCategory(category.name)}

@@ -216,7 +216,7 @@ export default function WatchStream() {
               {currentStream.tags.length > 0 && (
                 <div className="mt-4 pt-4 border-t border-border">
                   <div className="flex flex-wrap gap-2">
-                    {currentStream.tags.map((tag) => (
+                    {currentStream.tags.map((tag:any) => (
                       <Badge key={tag} variant="outline" className="text-xs">
                         {tag}
                       </Badge>
